@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Head from 'next/head';
+import Navbar from "./Components/Navbar";
+import MobNav from "./Components/MobNav";
+import TopNav from "./Components/TopNav";
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +22,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://api.fontshare.com/v2/css?f[]=satoshi@400,700&display=swap"
+        />
+      </Head>
+      <body className={inter.className}>
+        <TopNav />
+        <Navbar />
+        <div className="lg:hidden">
+          <MobNav />
+        </div>
+        
+        {children}</body>
     </html>
   );
 }
