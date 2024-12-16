@@ -31,7 +31,7 @@ const Footer = () => {
           <div>
             <h3 className="font-black text-xl">SHOP.CO</h3>
             <p className="text-gray-400 mt-2">
-              We have clothes that suit your style and which you're proud to
+              We have clothes that suit your style and which you &apos; re proud to
               wear. From women to men.
             </p>
             <div className="flex space-x-3 mt-4">

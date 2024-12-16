@@ -111,7 +111,7 @@ export default function Tshirts() {
                     <span className="ml-2 text-white bg-green-500 rounded-full font-semibold">✔</span>
                 </div>
                 <p className='text-slate-500'>
-                    "I'm blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                &quot;I'm blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.&quot;
                 </p>
 
                 <p className='text-slate-500'>Posted on August 14, 2023</p>                
@@ -129,7 +129,7 @@ export default function Tshirts() {
                     <span className="ml-2 text-white bg-green-500 rounded-full font-semibold">✔</span>
                 </div>
                 <p className='text-slate-500'>
-                    "I'm blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                &quot;I&apos;m blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;
                 </p>
 
                 <p className='text-slate-500'>Posted on August 15, 2023</p>                
@@ -148,7 +148,7 @@ export default function Tshirts() {
                     <span className="ml-2 text-white bg-green-500 rounded-full font-semibold">✔</span>
                 </div>
                 <p className='text-slate-500'>
-                    "I'm blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                &quot;I&apos;m blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;
                 </p>
 
                 <p className='text-slate-500'>Posted on August 16, 2023</p>                
@@ -167,7 +167,7 @@ export default function Tshirts() {
                     <span className="ml-2 text-white bg-green-500 rounded-full font-semibold">✔</span>
                 </div>
                 <p className='text-slate-500'>
-                    "I'm blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                &quot;I&apos;m blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;
                 </p>
 
                 <p className='text-slate-500'>Posted on August 17, 2023</p>                
@@ -186,7 +186,7 @@ export default function Tshirts() {
                     <span className="ml-2 text-white bg-green-500 rounded-full font-semibold">✔</span>
                 </div>
                 <p className='text-slate-500'>
-                    "I'm blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                &quot;I&apos;m blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;
                 </p>
 
                 <p className='text-slate-500'>Posted on August 18, 2023</p>                
@@ -205,7 +205,7 @@ export default function Tshirts() {
                     <span className="ml-2 text-white bg-green-500 rounded-full font-semibold">✔</span>
                 </div>
                 <p className='text-slate-500'>
-                    "I'm blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                &quot;I&apos;m blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;
                 </p>
 
                 <p className='text-slate-500'>Posted on August 19, 2023</p>                
