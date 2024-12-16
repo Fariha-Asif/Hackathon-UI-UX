@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import "keen-slider/keen-slider.min.css";
 import "./globals.css";
 import Head from 'next/head';
 import Navbar from "./Components/Navbar";
 import MobNav from "./Components/MobNav";
 import TopNav from "./Components/TopNav";
+import Footer from "./Components/Footer";
 
 
 
@@ -35,7 +37,10 @@ export default function RootLayout({
           <MobNav />
         </div>
         
-        {children}</body>
+        {children}
+        <Footer />
+        </body>
+
     </html>
   );
 }

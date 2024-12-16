@@ -3,7 +3,6 @@ import {
     SheetContent,
     SheetDescription,
     SheetHeader,
-    SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
 
@@ -12,7 +11,7 @@ import { ChevronDown, Menu } from "lucide-react"
   const MobNav = () => {
     return(
         <Sheet>
-  <SheetTrigger className="ml-6 mb-5">
+  <SheetTrigger className="ml-6 mb-5 mt-3">
     <Menu/>
     </SheetTrigger>
   <SheetContent>
