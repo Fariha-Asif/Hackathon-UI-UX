@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 const NewArrivals = () => {
   const products = [
@@ -52,9 +53,11 @@ const NewArrivals = () => {
               className="bg-white shadow rounded-lg p-4 flex flex-col items-center text-center"
             >
               {/* Product Image */}
-              <img
+              <Image
                 src={product.image}
                 alt={product.name}
+                width={100}
+                height={100}
                 className="h-40 w-40 object-contain mb-4"
               />
 

@@ -111,7 +111,7 @@ export default function Tshirts() {
                     <span className="ml-2 text-white bg-green-500 rounded-full font-semibold">✔</span>
                 </div>
                 <p className='text-slate-500'>
-                &quot;I'm blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.&quot;
+                &quot;I&apos;m blown away by the quality and style of the clothes I received from Shopco. From casual wear to elegant dresses, every piece I&apos;ve bought has exceeded my expectations.&quot;
                 </p>
 
                 <p className='text-slate-500'>Posted on August 14, 2023</p>                
