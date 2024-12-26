@@ -33,18 +33,23 @@ const Navbar = () => {
         </nav>
 
         {/* Search Bar */}
-        <div className="lg:flex items-center border rounded-full bg-gray-100 px-4 py-2 w-[377px] h-[48px]">
-          <Search className="text-gray-500" />
-          <input
-            type="text"
-            placeholder="Search for products..."
-            className="bg-transparent outline-none px-2 w-full text-gray-600"
-          />
+        <div className="hidden lg:block">
+          <div className="lg:flex items-center border rounded-full bg-gray-100 px-4 py-2 w-[377px] h-[48px]">
+            <Search className="text-gray-500" />
+            <input
+              type="text"
+              placeholder="Search for products..."
+              className="bg-transparent outline-none px-2 w-full text-gray-600"
+            />
+          </div>
+
         </div>
+        
 
         {/* Icons */}
-        <div className="w-[96px] lg:w-[62px] h-[24px] flex items-center space-x-6">
+        <div className="w-[96px] lg:w-[62px] h-[24px] flex items-center space-x-1">
           {/* Cart Icon */}
+          <Search className="lg:hidden" />
           <Link href="/Cart">
             <ShoppingCartIcon className="w-[24px] h-[24px] text-black text-xl cursor-pointer" />
           </Link>

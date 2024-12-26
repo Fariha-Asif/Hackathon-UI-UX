@@ -11,27 +11,27 @@ import { ChevronDown, Menu } from "lucide-react"
   const MobNav = () => {
     return(
         <Sheet>
-  <SheetTrigger className="ml-6 mb-5 mt-3">
+  <SheetTrigger className="ml-6 mb-5 mt-3 w-14 bg-slate-300">
     <Menu/>
     </SheetTrigger>
   <SheetContent>
     <SheetHeader>
       <SheetDescription>
         {/* Navigation Links */}
-        <nav className="flex w-2">
-          <a href="#" className="flex text-white">
-            Shop <span className="text-sm"><ChevronDown/></span>
+        <nav className="grid grid-cols-1 text-black font-bold text-2xl ">
+          <a href="#">
+            Shop
           </a>
           <br/>
-          <a href="#" className="text-white">
+          <a href="#">
             On Sale
           </a>
           <br/>
-          <a href="#" className="text-white">
+          <a href="#">
             New Arrivals
           </a>
           <br/>
-          <a href="#" className="text-white">
+          <a href="#">
             Brands
           </a>
         </nav>

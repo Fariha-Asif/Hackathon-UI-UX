@@ -18,7 +18,7 @@ const HeroSection = () => {
           Browse through our diverse range of meticulously styled garments,
           designed to bring your individuality and cater to your sense of style.
         </p>
-        <button className="w-44 sm:w-52 h-12 sm:h-14 mt-6 lg:mt-8 bg-black text-white font-semibold rounded-lg shadow hover:bg-gray-800">
+        <button className="w-44 sm:w-52 h-12 sm:h-14 mt-6 lg:mt-8 bg-black text-white font-semibold rounded-full shadow hover:bg-gray-800">
           Shop Now
         </button>
       </div>
@@ -27,20 +27,28 @@ const HeroSection = () => {
       <div className="relative w-full lg:w-6/12 flex justify-center items-center mt-8 lg:mt-0">
         {/* Main Image */}
         <Image
-          src="/images/hero-pic.png" // Update this to the correct path
+          src="/images/hero-pic.jpeg" // Update this to the correct path
           alt="Models in stylish clothing"
-          width={600}
-          height={600}
-          className="rounded-lg object-cover w-full max-w-[400px] md:max-w-[500px] lg:max-w-none lg:w-[600px] h-auto"
+          width={200}
+          height={200}
+          className="rounded-lg object-cover w-full max-w-[300px] md:max-w-[500px] lg:max-w-none lg:w-[600px] h-[800px]"
         />
 
         {/* Decorative Stars */}
-        <div className="absolute top-4 left-8 sm:top-8 sm:left-16">
-          <Sparkle className="text-black fill-current w-6 h-6 sm:w-8 sm:h-8" />
-        </div>
-        <div className="absolute top-10 right-10 sm:top-16 sm:right-20">
-          <Sparkle className="text-black fill-current w-6 h-6 sm:w-8 sm:h-8" />
-        </div>
+        <Image
+          src="/images/star-2.png" // Update this to the correct path
+          alt="Models in stylish clothing"
+          width={200}
+          height={200}
+          className="w-[100px] absolute top-[300px] left-[-100px]"
+        />
+        <Image
+          src="/images/star-1.png" // Update this to the correct path
+          alt="Models in stylish clothing"
+          width={200}
+          height={200}
+          className="w-[100px] absolute top-[50px] right-[30px]"
+        />
       </div>
     </section>
   );
